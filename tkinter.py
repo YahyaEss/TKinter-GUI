@@ -153,7 +153,7 @@ class Text_area:
             return self.controller.get(1.0, root.END)
 
     def Append_text(self,text): # For Appending the exisitng text in TextArea
-	print "narender"	
+	print("narender")
         if(self.controller == None):
 	    self.text = self.text + text
         else:
